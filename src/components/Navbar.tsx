@@ -6,22 +6,20 @@ interface Props {
   language: string;
   setLanguage: Dispatch<SetStateAction<string>>;
 }
+const logo = require("../assets/images/logo.png");
+
 const Navbar: FC<Props> = ({ language, setLanguage }) => {
   return (
     <div id="navbar">
-      <a className="active" href="javascript:void(0)">
-        {language === "GR" ? "Ἕν τούτῳ Νίκα" : "In this you conquer"}
+      <a className="active" href="#heroSlider">
+        <img src={logo} alt="logo" width={35} height={25} />
       </a>
-      <a href="javascript:void(0)">
-        {language === "GR" ? "Πληροφορίες" : "Info"}
-      </a>
-      <a href="javascript:void(0)">
-        {language === "GR" ? "Ἐγκατάσταση" : "Install"}
-      </a>
+      <a href="#info">{language === "GR" ? "Πληροφορίες" : "Info"}</a>
+      <a href="#install">{language === "GR" ? "Ἐγκατάσταση" : "Install"}</a>
       <div className="languages-container">
         <div
           onClick={() => setLanguage("GR")}
-          className={`language ${language === "GR" ? "active" : ""} `}
+          className={`language ${language === "GR" ? "active" : "inactive"} `}
         >
           <img
             alt="logo"
@@ -32,7 +30,7 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
         </div>
         <div
           onClick={() => setLanguage("GB")}
-          className={`language ${language === "GB" ? "active" : ""} `}
+          className={`language ${language === "GB" ? "active" : "inactive"} `}
         >
           <img
             alt="logo"

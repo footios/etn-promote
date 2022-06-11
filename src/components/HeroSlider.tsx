@@ -8,7 +8,7 @@ const image3 = require("../assets/images/slide3.jpeg");
 
 const HeroSlider = () => {
   return (
-    <div>
+    <div id="heroSlider">
       <Carousel>
         <Carousel.Item interval={1000}>
           <img className="d-block w-100" src={image1} alt="First slide" />

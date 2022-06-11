@@ -8,7 +8,7 @@ interface Props {
 }
 const Info: FC<Props> = ({ language }) => {
   return (
-    <article className="info">
+    <article className="info" id="info">
       <article className="info-text">
         <p>{language === "GR" ? infoTextGR : infoTextEN}</p>
       </article>
