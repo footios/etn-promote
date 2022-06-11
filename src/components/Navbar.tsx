@@ -1,14 +1,41 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-var-requires */
+import React, { Dispatch, FC, SetStateAction } from "react";
 import "../styles/components/navbar.css";
 
-const Navbar = () => {
+interface Props {
+  language: string;
+  setLanguage: Dispatch<SetStateAction<string>>;
+}
+const Navbar: FC<Props> = ({ language, setLanguage }) => {
   return (
     <div id="navbar">
       <a className="active" href="javascript:void(0)">
-        Home
+        {language === "GR" ? "Ἕν τούτῳ Νίκα" : "In this you conquer"}
       </a>
-      <a href="javascript:void(0)">News</a>
-      <a href="javascript:void(0)">Contact</a>
+      <a href="javascript:void(0)">
+        {language === "GR" ? "Πληροφορίες" : "Info"}
+      </a>
+      <a href="javascript:void(0)">
+        {language === "GR" ? "Ἐγκατάσταση" : "Install"}
+      </a>
+      <div className="languages-container">
+        <div onClick={() => setLanguage("GR")} className="language">
+          <img
+            alt="logo"
+            width={55}
+            height={30}
+            src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GR.svg"
+          />
+        </div>
+        <div onClick={() => setLanguage("GB")} className="language active">
+          <img
+            alt="logo"
+            width={55}
+            height={30}
+            src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
+          />
+        </div>
+      </div>
     </div>
   );
 };
