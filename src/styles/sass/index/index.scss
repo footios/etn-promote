@@ -1,0 +1,20 @@
+@import "../colors//colors.scss";
+@import "../config/config.scss";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* Typography */
+::selection {
+  background: $primary;
+  color: $secondary;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $hellenic, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}

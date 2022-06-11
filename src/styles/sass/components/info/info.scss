@@ -1,0 +1,18 @@
+@import "../../colors//colors.scss";
+
+.info {
+  background: $primary;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.info-text {
+  width: 70rem;
+  height: 90vh;
+  font-size: 1.4rem;
+  color: $text;
+  font-size: 1.6rem;
+}
