@@ -1,9 +1,10 @@
 import React from "react";
-import HeroSlider from "./components/HeroSlider";
+import { HeroSlider, Navbar } from "./components";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <HeroSlider />
     </div>
   );
