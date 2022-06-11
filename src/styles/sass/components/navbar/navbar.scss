@@ -1,12 +1,14 @@
+@import "../../colors/colors.scss";
+
 #navbar {
   overflow: hidden;
-  background-color: #e2d1b2;
+  background-color: $secondary;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #620000;
+  color: $primary;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -14,13 +16,13 @@
 }
 
 #navbar a:hover {
-  background-color: #6b2626;
-  color: #e2d1b2;
+  background-color: $primary_b;
+  color: $secondary;
 }
 
 #navbar a.active {
-  background-color: #620000;
-  color: #e2d1b2;
+  background-color: $primary;
+  color: $secondary;
 }
 
 .content {
@@ -43,10 +45,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  cursor: pointer;
   margin-top: 10px;
 }
 
-.language.active {
+.language {
   opacity: 0.5;
+  cursor: pointer;
+}
+
+.language.active {
+  opacity: 1;
 }

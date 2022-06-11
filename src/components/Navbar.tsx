@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import React, { Dispatch, FC, SetStateAction } from "react";
-import "../styles/components/navbar.css";
+import "../styles/sass/components/navbar/navbar.css";
 
 interface Props {
   language: string;
@@ -19,7 +19,10 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
         {language === "GR" ? "Ἐγκατάσταση" : "Install"}
       </a>
       <div className="languages-container">
-        <div onClick={() => setLanguage("GR")} className="language">
+        <div
+          onClick={() => setLanguage("GR")}
+          className={`language ${language === "GR" ? "active" : ""} `}
+        >
           <img
             alt="logo"
             width={55}
@@ -27,7 +30,10 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
             src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GR.svg"
           />
         </div>
-        <div onClick={() => setLanguage("GB")} className="language active">
+        <div
+          onClick={() => setLanguage("GB")}
+          className={`language ${language === "GB" ? "active" : ""} `}
+        >
           <img
             alt="logo"
             width={55}
