@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AACE,WADS,CACT,EAAE;AADJ,WAAW,CAET,EAAE,CAAC;EACD,KAAK,ECJG,OAAO;EDKf,WAAW,EEJJ,iBAAiB;CFKzB",
+    "sources": [
+        "heroSlider.scss",
+        "../../colors/colors.scss",
+        "../../config/config.scss",
+        "../../colors/colors.scss"
+    ],
+    "names": [],
+    "file": "heroSlider.css"
+}

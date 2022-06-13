@@ -1,4 +1,5 @@
-@import "../../colors//colors.scss";
+@import "../../colors/colors.scss";
+@import "../../config/config.scss";
 
 .info {
   background: $primary;
@@ -10,6 +11,7 @@
 .info-text {
   width: 50rem;
   font-size: 1.9rem;
+  font-family: $hellenic;
   color: $text;
   padding: 2rem;
 }

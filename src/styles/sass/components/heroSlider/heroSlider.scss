@@ -1,0 +1,10 @@
+@import "../../colors/colors.scss";
+@import "../../config/config.scss";
+
+#heroSlider {
+  h2,
+  h3 {
+    color: $secondary;
+    font-family: $hellenic;
+  }
+}
