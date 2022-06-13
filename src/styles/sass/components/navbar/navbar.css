@@ -8,7 +8,7 @@
   display: block;
   color: #620000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2px 7px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -37,10 +37,11 @@
   padding-top: 60px;
 }
 
+.info-link {
+  margin-top: 10px;
+}
+
 .languages-container {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,6 +1,5 @@
 .info {
   background: #620000;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,17 +9,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2rem;
 }
 
 .info-text {
-  width: 70rem;
-  font-size: 2rem;
+  width: 50rem;
+  font-size: 1.9rem;
   color: #dabdaa;
+  padding: 2rem;
 }
 
 .install {
-  background: #620000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

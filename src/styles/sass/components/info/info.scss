@@ -2,22 +2,19 @@
 
 .info {
   background: $primary;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
 }
 
 .info-text {
-  width: 70rem;
-  // height: 100vh;
-  font-size: 2rem;
+  width: 50rem;
+  font-size: 1.9rem;
   color: $text;
+  padding: 2rem;
 }
 
 .install {
-  background: $primary;
   display: flex;
   align-items: center;
   justify-content: space-around;

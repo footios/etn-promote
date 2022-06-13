@@ -10,7 +10,7 @@
   display: block;
   color: $primary;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2px 7px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -39,8 +39,11 @@
   padding-top: 60px;
 }
 
+.info-link {
+  margin-top: 10px;
+}
+
 .languages-container {
-  flex: 1;
   display: flex;
   flex-direction: row;
   align-items: center;

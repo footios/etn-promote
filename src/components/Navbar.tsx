@@ -12,9 +12,13 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
   return (
     <div id="navbar">
       <a className="active" href="#heroSlider">
-        <img src={logo} alt="logo" width={35} height={25} />
+        <img src={logo} alt="logo" width={50} height={40} />
       </a>
-      <a href="#info">{language === "GR" ? "Πληροφορίες" : "Info"}</a>
+
+      <a className="info-link" href="#info">
+        {language === "GR" ? "Πληροφορίες" : "Info"}
+      </a>
+
       <div className="languages-container">
         <div
           onClick={() => setLanguage("GR")}
