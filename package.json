@@ -1,5 +1,6 @@
 {
   "name": "etn-promote",
+  "homepage": "https://footios.github.io/etn-promote",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "watch": "jest --watch",
     "cov": "jest --coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -63,6 +66,7 @@
     "eslint": "8.17.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-react": "7.30.0",
+    "gh-pages": "^4.0.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.1",
     "prettier": "2.6.2"
