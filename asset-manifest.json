@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/entoutonika.com/static/css/main.19eff542.css",
+    "main.js": "/entoutonika.com/static/js/main.561af83e.js",
+    "static/media/slide2.jpeg": "/entoutonika.com/static/media/slide2.78062fb01adc5d41867c.jpeg",
+    "static/media/slide1.jpeg": "/entoutonika.com/static/media/slide1.40a97c734cf05a5c6049.jpeg",
+    "static/media/slide1en.jpeg": "/entoutonika.com/static/media/slide1en.095f6802733d789e4f37.jpeg",
+    "static/media/slide3.jpeg": "/entoutonika.com/static/media/slide3.97814eb32c5b60f7d554.jpeg",
+    "static/media/slide2en.jpeg": "/entoutonika.com/static/media/slide2en.0ab0246f855f2afacd6e.jpeg",
+    "static/media/slide3en.jpeg": "/entoutonika.com/static/media/slide3en.ffa31687f9af010b16e7.jpeg",
+    "static/media/logo.png": "/entoutonika.com/static/media/logo.4d7594fd7d7f5d3593a7.png",
+    "static/media/google-play-badgeGR.png": "/entoutonika.com/static/media/google-play-badgeGR.53c2ecdb7d5afa1746f4.png",
+    "static/media/google-play-badgeEN.png": "/entoutonika.com/static/media/google-play-badgeEN.f902960a94878ee0da67.png",
+    "index.html": "/entoutonika.com/index.html",
+    "main.19eff542.css.map": "/entoutonika.com/static/css/main.19eff542.css.map",
+    "main.561af83e.js.map": "/entoutonika.com/static/js/main.561af83e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19eff542.css",
+    "static/js/main.561af83e.js"
+  ]
+}
