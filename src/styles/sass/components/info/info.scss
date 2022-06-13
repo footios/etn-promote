@@ -11,7 +11,14 @@
 
 .info-text {
   width: 70rem;
-  height: 90vh;
+  // height: 100vh;
   font-size: 2rem;
   color: $text;
+}
+
+.install {
+  background: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

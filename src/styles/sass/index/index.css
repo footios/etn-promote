@@ -1,20 +1,3 @@
-*,
-*::after,
-*::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* Typography */
-::-moz-selection {
-  background: #620000;
-  color: #e2d1b2;
-}
-::selection {
-  background: #620000;
-  color: #e2d1b2;
-}
-
 html {
   font-size: 62.5%;
 }

@@ -15,7 +15,6 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
         <img src={logo} alt="logo" width={35} height={25} />
       </a>
       <a href="#info">{language === "GR" ? "Πληροφορίες" : "Info"}</a>
-      <a href="#install">{language === "GR" ? "Ἐγκατάσταση" : "Install"}</a>
       <div className="languages-container">
         <div
           onClick={() => setLanguage("GR")}
@@ -29,8 +28,8 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
           />
         </div>
         <div
-          onClick={() => setLanguage("GB")}
-          className={`language ${language === "GB" ? "active" : "inactive"} `}
+          onClick={() => setLanguage("EN")}
+          className={`language ${language === "EN" ? "active" : "inactive"} `}
         >
           <img
             alt="logo"

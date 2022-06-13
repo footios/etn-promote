@@ -1,15 +1,5 @@
 @import "../colors//colors.scss";
 @import "../config/config.scss";
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-/* Typography */
-::selection {
-  background: $primary;
-  color: $secondary;
-}
 
 html {
   font-size: 62.5%;

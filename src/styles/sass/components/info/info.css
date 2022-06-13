@@ -15,8 +15,19 @@
 
 .info-text {
   width: 70rem;
-  height: 90vh;
   font-size: 2rem;
   color: #dabdaa;
+}
+
+.install {
+  background: #620000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=info.css.map */
