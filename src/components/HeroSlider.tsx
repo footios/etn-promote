@@ -1,12 +1,23 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-import React from "react";
+import React, { FC } from "react";
 import { Carousel } from "react-bootstrap";
 
-const image1 = require("../assets/images/slide1.jpeg");
-const image2 = require("../assets/images/slide2.jpeg");
-const image3 = require("../assets/images/slide3.jpeg");
+let image1 = require("../assets/images/slide1.jpeg");
+let image2 = require("../assets/images/slide2.jpeg");
+let image3 = require("../assets/images/slide3.jpeg");
+const image1en = require("../assets/images/slide1en.jpeg");
+const image2en = require("../assets/images/slide2en.jpeg");
+const image3en = require("../assets/images/slide3en.jpeg");
+interface Props {
+  language: string;
+}
+const HeroSlider: FC<Props> = ({ language }) => {
+  if (language === "EN") {
+    image1 = image1en;
+    image2 = image2en;
+    image3 = image3en;
+  }
 
-const HeroSlider = () => {
   return (
     <div id="heroSlider">
       <Carousel>

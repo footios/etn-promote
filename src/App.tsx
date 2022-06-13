@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navbar language={language} setLanguage={setLanguage} />
-      <HeroSlider />
+      <HeroSlider language={language} />
       <Info language={language} />
     </div>
   );
