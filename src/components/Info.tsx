@@ -23,10 +23,17 @@ const Info: FC<Props> = ({ language }) => {
       <article className="info-text">
         <p>{language === "GR" ? infoTextGR : infoTextEN}</p>
         <section className="install">
-          <a href="http://">
+          <a href="http://" target="_blank" rel="noreferrer">
             <img src={apple} alt="App store badge" />
           </a>
-          <a href="http://">
+          <a
+            href="https://app.websitepolicies.com/policies/view/Z7EH1eVD"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Privacy policy</h2>
+          </a>
+          <a href="http://" target="_blank" rel="noreferrer">
             <img
               src={android}
               alt="Google play badge"
