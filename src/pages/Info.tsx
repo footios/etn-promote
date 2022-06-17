@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import React, { FC } from "react";
 import { infoTextGR, infoTextEN } from "../constatnts";
-import "./../styles/sass/components/info/info.css";
+import "./../styles/sass/pages/info/info.css";
 
 const appleGR = require("../assets/images/AppStoreGR.png");
 const appleEN = require("../assets/images/AppStoreEN.png");

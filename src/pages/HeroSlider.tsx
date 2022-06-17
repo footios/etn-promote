@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import React, { FC } from "react";
 import { Carousel } from "react-bootstrap";
-import "../styles/sass/components/heroSlider/heroSlider.css";
+import "../styles/sass/pages/heroSlider/heroSlider.css";
 
 const image1 = require("../assets/images/slide1.jpeg");
 const image2 = require("../assets/images/slide2.jpeg");

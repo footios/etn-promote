@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { HeroSlider, Info, Navbar } from "./components";
+import { Donate, HeroSlider, Info } from "./pages";
+import { Navbar } from "./components";
 
 function App() {
   const [language, setLanguage] = useState<string>("GR");
@@ -8,6 +9,7 @@ function App() {
       <Navbar language={language} setLanguage={setLanguage} />
       <HeroSlider language={language} />
       <Info language={language} />
+      <Donate language={language} />
     </div>
   );
 }
