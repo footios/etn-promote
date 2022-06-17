@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,AACE,WADS,CACT,EAAE;AADJ,WAAW,CAET,EAAE,CAAC;EACD,KAAK,ECJG,OAAO;EDKf,WAAW,EEJJ,iBAAiB;CFKzB",
+    "mappings": "AAGA,AACE,WADS,CACT,EAAE;AADJ,WAAW,CAET,EAAE,CAAC;EACD,KAAK,ECJG,OAAO;EDKf,WAAW,EELN,WAAW;CFMjB",
     "sources": [
         "heroSlider.scss",
         "../../colors/colors.scss",

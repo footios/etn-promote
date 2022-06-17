@@ -2,9 +2,18 @@
 @import "../config/config.scss";
 
 html {
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "MS Tahoma", Arial, Helvetica, sans-serif;
   font-size: 62.5%;
 }
+
 body {
-  font-family: $hellenic, Arial, Helvetica, sans-serif;
+  scrollbar-width: none; /* Firefox 64 */
+  -ms-overflow-style: none; /* Internet Explorer 11 */
+  &::-webkit-scrollbar {
+    /** WebKit */
+    display: none;
+  }
   line-height: 1.5;
 }

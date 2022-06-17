@@ -1,9 +1,21 @@
 html {
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "MS Tahoma", Arial, Helvetica, sans-serif;
   font-size: 62.5%;
 }
 
 body {
-  font-family: "GFS Neohellenic", Arial, Helvetica, sans-serif;
+  scrollbar-width: none;
+  /* Firefox 64 */
+  -ms-overflow-style: none;
+  /* Internet Explorer 11 */
   line-height: 1.5;
+}
+
+body::-webkit-scrollbar {
+  /** WebKit */
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */

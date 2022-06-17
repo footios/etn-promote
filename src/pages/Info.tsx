@@ -34,18 +34,47 @@ const Info: FC<Props> = ({ language }) => {
 
       <article className="info-text">
         <p>{language === "GR" ? infoTextGR : infoTextEN}</p>
-        <section className="install">
+
+        <section className="footer-links">
           <a href="http://" target="_blank" rel="noreferrer">
             <img src={apple} alt="App store badge" />
           </a>
+          <form
+            id="link"
+            action="https://www.paypal.com/donate"
+            method="post"
+            target="_top"
+          >
+            <input
+              type="hidden"
+              name="hosted_button_id"
+              value="VJE94RC7RHQU8"
+            />
+            <input
+              type="image"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+              data-border="0"
+              name="submit"
+              title="PayPal - The safer, easier way to pay online!"
+              alt="Donate with PayPal button"
+            />
+            <img
+              alt=""
+              data-border="0"
+              src="https://www.paypal.com/en_GR/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            />
+          </form>
           <a
+            id="link"
             href="https://app.websitepolicies.com/policies/view/Z7EH1eVD"
             target="_blank"
             rel="noreferrer"
           >
             <h2>Privacy policy</h2>
           </a>
-          <a href="http://" target="_blank" rel="noreferrer">
+          <a id="link" href="http://" target="_blank" rel="noreferrer">
             <img
               src={android}
               alt="Google play badge"

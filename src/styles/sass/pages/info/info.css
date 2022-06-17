@@ -14,15 +14,19 @@
 .info-text {
   width: 50rem;
   font-size: 1.9rem;
-  font-family: "GFS Neohellenic";
+  font-family: "MS Tahoma";
   color: #dabdaa;
   padding: 2rem;
 }
 
-.install {
+.footer-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -30,22 +34,28 @@
       justify-content: space-around;
 }
 
+#link {
+  margin-top: 2rem;
+}
+
 .phone-screen {
   display: none;
 }
 
 @media screen and (min-width: 1100px) {
-  .phone-screen {
+  .footer-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -ms-flex-item-align: center;
-        align-self: center;
-    margin: 20px;
-    border-radius: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .info-text {
     display: -webkit-box;
@@ -58,6 +68,18 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .phone-screen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 20px;
+    border-radius: 25px;
   }
 }
 /*# sourceMappingURL=info.css.map */

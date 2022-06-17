@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Donate, HeroSlider, Info } from "./pages";
+import { HeroSlider, Info } from "./pages";
 import { Navbar } from "./components";
 
 function App() {
@@ -9,7 +9,6 @@ function App() {
       <Navbar language={language} setLanguage={setLanguage} />
       <HeroSlider language={language} />
       <Info language={language} />
-      <Donate language={language} />
     </div>
   );
 }
