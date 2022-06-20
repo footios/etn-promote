@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/etn-promote/static/css/main.19eff542.css",
-    "main.js": "/etn-promote/static/js/main.7b5b2c4a.js",
+    "main.css": "/etn-promote/static/css/main.a2942754.css",
+    "main.js": "/etn-promote/static/js/main.2d7217b7.js",
     "static/media/slide2.jpeg": "/etn-promote/static/media/slide2.78062fb01adc5d41867c.jpeg",
     "static/media/slide1.jpeg": "/etn-promote/static/media/slide1.40a97c734cf05a5c6049.jpeg",
     "static/media/slide1en.jpeg": "/etn-promote/static/media/slide1en.095f6802733d789e4f37.jpeg",
     "static/media/slide3.jpeg": "/etn-promote/static/media/slide3.97814eb32c5b60f7d554.jpeg",
     "static/media/slide2en.jpeg": "/etn-promote/static/media/slide2en.0ab0246f855f2afacd6e.jpeg",
+    "static/media/9gr.jpeg": "/etn-promote/static/media/9gr.822c16a0936f059a3e19.jpeg",
+    "static/media/9en.jpeg": "/etn-promote/static/media/9en.d4c1d5b75f96a88f298e.jpeg",
     "static/media/slide3en.jpeg": "/etn-promote/static/media/slide3en.ffa31687f9af010b16e7.jpeg",
+    "static/media/10gr.jpeg": "/etn-promote/static/media/10gr.4f7dc976e280a8a4cae6.jpeg",
+    "static/media/10en.jpeg": "/etn-promote/static/media/10en.4701f967a23ba2f21618.jpeg",
     "static/media/logo.png": "/etn-promote/static/media/logo.4d7594fd7d7f5d3593a7.png",
     "static/media/google-play-badgeGR.png": "/etn-promote/static/media/google-play-badgeGR.53c2ecdb7d5afa1746f4.png",
     "static/media/google-play-badgeEN.png": "/etn-promote/static/media/google-play-badgeEN.f902960a94878ee0da67.png",
     "index.html": "/etn-promote/index.html",
-    "main.19eff542.css.map": "/etn-promote/static/css/main.19eff542.css.map",
-    "main.7b5b2c4a.js.map": "/etn-promote/static/js/main.7b5b2c4a.js.map"
+    "main.a2942754.css.map": "/etn-promote/static/css/main.a2942754.css.map",
+    "main.2d7217b7.js.map": "/etn-promote/static/js/main.2d7217b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.19eff542.css",
-    "static/js/main.7b5b2c4a.js"
+    "static/css/main.a2942754.css",
+    "static/js/main.2d7217b7.js"
   ]
 }
