@@ -36,7 +36,11 @@ const Info: FC<Props> = ({ language }) => {
         <p>{language === "GR" ? infoTextGR : infoTextEN}</p>
 
         <section className="footer-links">
-          <a href="http://" target="_blank" rel="noreferrer">
+          <a
+            href="https://apps.apple.com/gr/app/in-this-you-conquer/id1602477321"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={apple} alt="App store badge" />
           </a>
           <form
@@ -72,7 +76,7 @@ const Info: FC<Props> = ({ language }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Privacy policy</h2>
+            <h2>Privacy Policy</h2>
           </a>
           <a id="link" href="http://" target="_blank" rel="noreferrer">
             <img
