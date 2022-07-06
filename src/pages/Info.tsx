@@ -36,40 +36,15 @@ const Info: FC<Props> = ({ language }) => {
         <p>{language === "GR" ? infoTextGR : infoTextEN}</p>
 
         <section className="footer-links">
-          <a
-            href="https://apps.apple.com/gr/app/in-this-you-conquer/id1602477321"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={apple} alt="App store badge" />
-          </a>
-          <form
-            id="link"
-            action="https://www.paypal.com/donate"
-            method="post"
-            target="_top"
-          >
-            <input
-              type="hidden"
-              name="hosted_button_id"
-              value="VJE94RC7RHQU8"
-            />
-            <input
-              type="image"
-              src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-              data-border="0"
-              name="submit"
-              title="PayPal - The safer, easier way to pay online!"
-              alt="Donate with PayPal button"
-            />
-            <img
-              alt=""
-              data-border="0"
-              src="https://www.paypal.com/en_GR/i/scr/pixel.gif"
-              width="1"
-              height="1"
-            />
-          </form>
+          <div>
+            <a
+              href="https://apps.apple.com/gr/app/in-this-you-conquer/id1602477321"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={apple} alt="App store badge" />
+            </a>
+          </div>
           <a
             id="link"
             href="https://app.websitepolicies.com/policies/view/Z7EH1eVD"
@@ -78,14 +53,16 @@ const Info: FC<Props> = ({ language }) => {
           >
             <h2>Privacy Policy</h2>
           </a>
-          <a id="link" href="http://" target="_blank" rel="noreferrer">
-            <img
-              src={android}
-              alt="Google play badge"
-              width={140}
-              height={60}
-            />
-          </a>
+          <div>
+            <a id="link" href="http://" target="_blank" rel="noreferrer">
+              <img
+                src={android}
+                alt="Google play badge"
+                width={140}
+                height={60}
+              />
+            </a>
+          </div>
         </section>
       </article>
 
