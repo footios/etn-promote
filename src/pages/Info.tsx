@@ -54,7 +54,12 @@ const Info: FC<Props> = ({ language }) => {
             <h2>Privacy Policy</h2>
           </a>
           <div>
-            <a id="link" href="http://" target="_blank" rel="noreferrer">
+            <a
+              id="link"
+              href="https://play.google.com/store/apps/details?id=com.entoutonika"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={android}
                 alt="Google play badge"
