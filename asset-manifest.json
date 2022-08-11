@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/etn-promote/static/css/main.6d6e94d4.css",
-    "main.js": "/etn-promote/static/js/main.0209042b.js",
+    "main.css": "/etn-promote/static/css/main.d62d6cc3.css",
+    "main.js": "/etn-promote/static/js/main.6710e2b2.js",
     "static/media/slide2.jpeg": "/etn-promote/static/media/slide2.78062fb01adc5d41867c.jpeg",
     "static/media/slide1.jpeg": "/etn-promote/static/media/slide1.40a97c734cf05a5c6049.jpeg",
     "static/media/slide1en.jpeg": "/etn-promote/static/media/slide1en.095f6802733d789e4f37.jpeg",
@@ -16,11 +16,11 @@
     "static/media/google-play-badgeGR.png": "/etn-promote/static/media/google-play-badgeGR.53c2ecdb7d5afa1746f4.png",
     "static/media/google-play-badgeEN.png": "/etn-promote/static/media/google-play-badgeEN.f902960a94878ee0da67.png",
     "index.html": "/etn-promote/index.html",
-    "main.6d6e94d4.css.map": "/etn-promote/static/css/main.6d6e94d4.css.map",
-    "main.0209042b.js.map": "/etn-promote/static/js/main.0209042b.js.map"
+    "main.d62d6cc3.css.map": "/etn-promote/static/css/main.d62d6cc3.css.map",
+    "main.6710e2b2.js.map": "/etn-promote/static/js/main.6710e2b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6e94d4.css",
-    "static/js/main.0209042b.js"
+    "static/css/main.d62d6cc3.css",
+    "static/js/main.6710e2b2.js"
   ]
 }
