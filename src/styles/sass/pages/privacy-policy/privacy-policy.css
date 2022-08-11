@@ -1,0 +1,72 @@
+h2 {
+  font-size: larger;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.wpembed-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em 1.5em 0;
+  width: 100%;
+  background: #620000;
+}
+
+.wpembed-content {
+  font-size: 1.9rem;
+  font-family: "MS Tahoma";
+  color: #dabdaa;
+  padding: 2rem;
+}
+
+.wpembed-madewith {
+  margin-top: auto;
+  margin-bottom: 1.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media screen and (min-width: 800px) {
+  .wpembed-content {
+    width: 80%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .wpembed-content {
+    width: 70%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .wpembed-content {
+    width: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=privacy-policy.css.map */

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HeroSlider, Info } from "./pages";
+import { HeroSlider, Info, PrivacyPolicy } from "./pages";
 import { Navbar } from "./components";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Navbar language={language} setLanguage={setLanguage} />
       <HeroSlider language={language} />
       <Info language={language} />
+      <PrivacyPolicy />
     </div>
   );
 }

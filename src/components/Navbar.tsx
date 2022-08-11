@@ -19,6 +19,10 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
         {language === "GR" ? "Πληροφορίες" : "Info"}
       </a>
 
+      <a className="info-link" href="#privacy-policy">
+        {language === "GR" ? "Privacy-policy" : "Privacy-policy"}
+      </a>
+
       <div className="languages-container">
         <div
           onClick={() => setLanguage("GR")}

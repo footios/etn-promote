@@ -45,14 +45,7 @@ const Info: FC<Props> = ({ language }) => {
               <img src={apple} alt="App store badge" />
             </a>
           </div>
-          <a
-            id="link"
-            href="https://app.websitepolicies.com/policies/view/Z7EH1eVD"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Privacy Policy</h2>
-          </a>
+
           <div>
             <a
               id="link"
